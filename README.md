@@ -17,4 +17,4 @@
 ```bash
 Author : Shirokami Ryzen 
 Thanks : Narutomo, Elaina, Ekuzika, David, Vyna
-Recode : Zeltoria 
+Recode : Neo 
