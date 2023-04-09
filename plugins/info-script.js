@@ -1,11 +1,10 @@
 import fs from 'fs'
 
 let handler = async (m, { conn }) => {
-	let krtu = `Thanks To :
+	let krtu = `script :
 	
-• Script Private
-
-My Support : All Creator Bot`;
+*• Script Private*
+`;
 	await conn.sendButton(m.chat, krtu, botdate, fotonya2, [['\nAku pedo dan Aku bangga','huuu']], m, {
 contextInfo: { externalAdReply :{
                         mediaUrl: '',
@@ -18,7 +17,7 @@ contextInfo: { externalAdReply :{
                       }}
 })
 }
-handler.command = /^(thankstoo|thanksto|credits|tqto)$/i;
+handler.command = /^(sc|script)$/i;
 handler.group = false;
 
 export default handler;
