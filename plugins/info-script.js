@@ -17,7 +17,7 @@ contextInfo: { externalAdReply :{
                       }}
 })
 }
-handler.command = /^(thankstoo|thanksto|credits|tqto)$/i;
+handler.command = /^(sc|script|scripts)$/i;
 handler.group = false;
 
 export default handler;
